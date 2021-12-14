@@ -8,7 +8,7 @@ La prueba está diseñada para ser resuelta en tres jornadas laborales (3 días)
 #### Importante: ####
 **El código debe utilizar sintaxis ES6 (ES2015) o super**
 
-En caso de preguntas dirigete a: *tech-test@enviame.io*, usando el asunto [Frontend-Test]
+En caso de preguntas dirigete a: *frontend-tech-test@enviame.io*, usando el asunto [Frontend-Test]
 
 Te deseamos mucho éxito!
 
