@@ -54,7 +54,7 @@ export default {
     'starNumber': {
       handler: function handler (val) {
         if (val) {
-          this.getRange([val, this.endNumber])
+          this.getResult([val, this.endNumber])
         }
       },
       immediate: true
@@ -62,14 +62,15 @@ export default {
     'endNumber': {
       handler: function handler (val) {
         if (val) {
-          this.getRange([this.startNumber, val])
+          this.getResult([this.startNumber, val])
         }
       },
       immediate: true
     }
   },
   methods: {
-    getRange: function (array) {
+    // getResult => Método que calcula y genera los números primos.
+    getResult: function (array) {
       let start = array[0]
       let stop = array[1]
       let step = 1
