@@ -18,4 +18,17 @@ npm run build
 npm run build --report
 ```
 
+## Credentials API
+
+``` bash
+# En el componente HeroesMarvel => path (components/page) definir apartir de la línea 62
+```
+```
+params: {
+   apikey: '#',
+   ts: '#',
+   hash: '#'
+}
+```
+
 For a detailed explanation on how things work, check out the [guide](http://vuejs-templates.github.io/webpack/) and [docs for vue-loader](http://vuejs.github.io/vue-loader).
