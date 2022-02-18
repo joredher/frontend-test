@@ -67,9 +67,9 @@ export default {
     loading: false,
     searchName: '',
     params: {
-      apikey: '87cf21a675c4e8bca1b8c9b0d6ca2e89',
-      ts: '3000',
-      hash: 'd25b38704339a24d5ff1cd0e85f6a035'
+      apikey: '#',
+      ts: '#',
+      hash: '#'
     }
   }),
   watch: {
