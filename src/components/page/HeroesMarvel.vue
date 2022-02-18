@@ -38,8 +38,8 @@
             </div>
           </b-card>
         </b-col>
-        <b-col v-else cols="12" class="text-white">
-          <h3 v-text="'No results found... Type again'"></h3>
+        <b-col v-show="heroes.length === 0" cols="12">
+          <h3 class="text-white" v-text="'No results found... Type again'"></h3>
         </b-col>
       </b-row>
     </b-container>
